@@ -11,7 +11,7 @@ html{
     border: 0.5rem solid #e1bee7;
     background-color: #fff1ff;
     display: grid; /*Para crear las grillas*/
-    grid-template-rows: 10rem 20rem; /*Le deice cuantas columnas/filas y de que tamaño*/
+    grid-template-rows: 10rem 20rem; /*Le dice cuantas columnas/filas y de que tamaño*/
     grid-auto-columns: 10rem; /*Define el tamaño que va a tener cualquier fila/columna que se cree*/
     grid-auto-flow: column; /*Por defecto esta en row (Cuando los elementos no caben crea filas nuevas) En column cuando los elementos no caben crea nuevas columnas*/
     /*

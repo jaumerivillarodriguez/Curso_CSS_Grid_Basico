@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.contenedor{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10rem 10rem 10rem;
+    grid-auto-columns: 10rem;
+    gap: 2rem;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.item{
+    font-size: 4rem;
+} 
+
+.item.primera-fila{
+    background-color: rgb(146, 238, 146);
+}
+.item.segunda-fila{
+    background-color: rgb(55, 158, 55);
+}
+.item.tercera-fila{
+    background-color: rgb(12, 80, 12);
+}
