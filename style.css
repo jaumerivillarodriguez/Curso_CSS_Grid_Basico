@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.contenedor{
+    border: 0.5rem solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid; /*Para crear las grillas*/
+    grid-template-rows: 10rem 20rem; /*Le deice cuantas columnas/filas y de que tamaño*/
+    grid-auto-columns: 10rem; /*Define el tamaño que va a tener cualquier fila/columna que se cree*/
+    grid-auto-flow: column; /*Por defecto esta en row (Cuando los elementos no caben crea filas nuevas) En column cuando los elementos no caben crea nuevas columnas*/
+    /*
+    row-gap: 1.5rem; Tamaño del espacio que queremos tener entre filas/columnas
+    column-gap: 3rem; */
+    gap: 4rem; /*Si queremos el mismo espacio entre filas y columnas*/
+}
+
+.item{
+    border: 0.5rem solid #00bcd4;
+    font-size: 4rem;
+}       
