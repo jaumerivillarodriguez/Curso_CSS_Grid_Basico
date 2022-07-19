@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.contenedor{
+    display: grid; 
+    grid-gap: 2rem;
+    grid-template-rows: 20rem 20rem;
+    grid-template-columns: 20rem 20rem;
+    place-content: center;
+    height: 60rem;
+
+}
+
+.item{
+    background-color: rgb(106, 143, 74);
+    display: grid;
+    place-items: end;
+}
+
+.item .item-num{
+    background-color: rgb(119, 178, 119);
+    font-size: 4rem;
+}
